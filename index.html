@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Чендей Каріна— студентське портфоліо</title>
+    <meta name="description" content="Персональне портфоліо Чендей Каріни - освіта, хобі, навички">
+
+    <link rel="icon" type="image/svg+xml" href="img/favicon.svg">
+
+    <meta property="og:title" content="<Чендей Каріна— студентське портфоліо">
+    <meta property="og:description" content="Чендей Каріна - освіта, хобі, навички">
+    <meta property="og:image" content="img/profile-wide.svg">
+    <meta property="og:type" content="website">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main">Перейти до основного вмісту</a>
+
+<header class="site-header">
+    <div class="container nav">
+        <a class="nav__brand" href="#about">Каріна<span>.</span>Чендей</a>
+
+        <input type="checkbox" id="nav-toggle" class="nav__toggle" aria-label="Відкрити меню навігації">
+        <div class="nav__bar">
+            <label for="nav-toggle" class="burger__label" aria-hidden="true">
+                <span></span><span></span><span></span>
+            </label>
+            <nav aria-label="Основна навігація">
+                <ul class="nav__list">
+                    <li><a class="nav__link" href="#about" aria-current="page">Про мене</a></li>
+                    <li><a class="nav__link" href="#school">Школа</a></li>
+                    <li><a class="nav__link" href="#university">Університет</a></li>
+                    <li><a class="nav__link" href="#subjects">Предмети</a></li>
+                    <li><a class="nav__link" href="#skills">Навички</a></li>
+                    <li><a class="nav__link" href="#hobbies">Хобі</a></li>
+                    <li><a class="nav__link" href="#books">Книги</a></li>
+                    <li><a class="nav__link" href="#music">Музика</a></li>
+                    <li><a class="nav__link" href="#movies">Фільми</a></li>
+                    <li><a class="nav__link" href="#sport">Спорт</a></li>
+                    <li><a class="nav__link" href="#travel">Подорожі</a></li>
+                    <li><a class="nav__link" href="#goals">Цілі</a></li>
+                    <li><a class="nav__link" href="#facts">Факти</a></li>
+                    <li><a class="nav__link" href="#quotes">Цитати</a></li>
+                    <li><a class="nav__link" href="#contact">Контакти</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</header>
+
+<main id="main">
+
+    <section id="about" class="section hero">
+        <div class="container hero__grid">
+            <picture>
+                <source media="(min-width: 1024px)" srcset="img/profile-wide.jpg">
+                <img class="hero__photo" src="img/profile-square.jpg" alt="Портрет Каріни Чендей" width="600" height="600">
+            </picture>
+            <div class="hero__intro">
+                <p class="section__eyebrow">Вітаю на моїй сторінці</p>
+                <h1 class="hero__name">Чендей Каріна</h1>
+                <p class="hero__role">Студентка спеціальності "Пикладна математика" ЛНУ ім Івана Франка</p>
+                <p>Мені 19, я з Закарпаття. Зараз живу та навчаюся у Львові. Люблю читати, малювати та навчатися чомусь новому. Крім того часто проводжу час за іграми або прогулянками з друзями</p>
+                <ul class="contact-list">
+                    <li><a href="mailto:<karinacendej@gmail.com>">karinacendej@gmail.com</a></li>
+                    <li>Львів</li>
+                </ul>
+            </div>
+        </div>
+        <aside class="hero__sidebar container" aria-label="Коротко про мене">
+            <h2>Коротко</h2>
+            <ul>
+                <li>3 курс, Прикладна математика</li>
+                <li>Мови: українська, англійська</li>
+                <li>Люблю дізнаватися щось нове </li>
+            </ul>
+            <a class="btn btn--ghost" href="#contact">Написати мені</a>
+        </aside>
+    </section>
+
+    <section id="school" class="section">
+        <div class="container">
+            <p class="section__eyebrow">Мій шлях, крок перший</p>
+            <h2 class="section__heading">Освіта: школа</h2>
+            <article class="timeline-card">
+            <span class="timeline-card__period">
+                <time datetime="2013">2013</time>–<time datetime="2024">2024</time>
+            </span>
+                <h3>Хустський ліцей №3</h3>
+                <p>Навчалася у школі з поглибленим вивченням англійської. Школа - це безтурботний час, який відобразився щасливими моментами з друзями) </p>
+            </article>
+        </div>
+    </section>
+
+    <section id="university" class="section">
+        <div class="container">
+            <p class="section__eyebrow">Мій шлях, крок другий</p>
+            <h2 class="section__heading">Освіта: університет</h2>
+
+            <article class="timeline-card">
+            <span class="timeline-card__period">
+                <time datetime="2024">2024</time> — нині
+            </span>
+                <h3>Львівський національний університет імені Івана Франка</h3>
+                <p>Навчаюсь на факультеті прикладної математики та інформатики, спеціальності «Прикладна математика», зараз на 3 курсі. З улюблених предметів - веб програмування, ТІМС та математичний аналіз </p>
+            </article>
+
+            <div class="table-wrap">
+                <table class="schedule">
+                    <caption>Розклад занять — Середа</caption>
+                    <thead>
+                    <tr>
+                        <th scope="col">Час</th>
+                        <th scope="col">Предмет</th>
+                        <th scope="col">Аудиторія</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>10:10</td>
+                        <td>Бази данних</td>
+                        <td>261</td>
+                    </tr>
+                    <tr>
+                        <td>11:50</td>
+                        <td>Веб програмування</td>
+                        <td>118</td>
+                    </tr>
+                    <tr>
+                        <td>13:30</td>
+                        <td>Веб програмування</td>
+                        <td>118</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+</main>
+
+<section id="subjects" class="section">
+    <div class="container">
+        <p class="section__eyebrow">Що подобається вивчати</p>
+        <h2 class="section__heading">Улюблені предмети</h2>
+
+        <ul class="subject-grid">
+            <li class="subject">
+                <span class="subject__name">Дискретна математика</span>
+                <p class="subject__why">Задачі на графи та комбінаторику — це майже головоломки, тільки з практичним застосуванням.</p>
+            </li>
+            <li class="subject">
+                <span class="subject__name">Веб-програмування</span>
+                <p class="subject__why">Тому що результат одразу видно у браузері — це найшвидший зворотний зв'язок з усіх предметів.</p>
+            </li>
+            <li class="subject">
+                <span class="subject__name">Програмне забезпечення</span>
+                <p class="subject__why">Викладач цього предмету Юрій Музичук - це людина яка справді надає менні мотивації та вміє надихнути</p>
+            </li>
+        </ul>
+    </div>
+</section>
+
+<section id="skills" class="section">
+    <div class="container">
+        <p class="section__eyebrow">Чим володію</p>
+        <h2 class="section__heading">Навички</h2>
+
+        <ul class="skills">
+            <li class="skill">
+                <div class="skill__top">
+                    <span> HTML/CSS</span>
+                    <span> 50%</span>
+                </div>
+                <div class="skill__track">
+                    <span class="skill__level skill__level--80"></span>
+                </div>
+            </li>
+            <li class="skill">
+                <div class="skill__top">
+                    <span>с++</span>
+                    <span>50%</span>
+                </div>
+                <div class="skill__track">
+                    <span class="skill__level skill__level--65"></span>
+                </div>
+            </li>
+            <li class="skill">
+                <div class="skill__top">
+                    <span>с#</span>
+                    <span>60%</span>
+                </div>
+                <div class="skill__track">
+                    <span class="skill__level skill__level--90"></span>
+                </div>
+            </li>
+            <li class="skill">
+                <div class="skill__top">
+                    <span>Python</span>
+                    <span>70%</span>
+                </div>
+                <div class="skill__track">
+                    <span class="skill__level skill__level--55"></span>
+                </div>
+            </li>
+        </ul>
+
+        <ul class="skills-soft">
+            <li>Командна робота</li>
+            <li>Тайм-менеджмент</li>
+            <li>Увага до деталей</li>
+            <li>Самонавчання</li>
+        </ul>
+    </div>
+</section>
+
+<section id="hobbies" class="section">
+    <div class="container">
+        <p class="section__eyebrow">Чим захоплююсь</p>
+        <h2 class="section__heading">Хобі та захоплення</h2>
+
+        <ul class="card-grid card-grid--hobbies">
+            <li class="hobby-card">
+                <span class="badge">Улюблене</span>
+                <img class="hobby-card__icon" src="img/icon-reading.svg" alt="" width="56" height="56" loading="lazy">
+                <h3 class="hobby-card__title">Читання</h3>
+                <p class="hobby-card__text">Дуже люблю детективи та фантастику, особливо Стівена Кінга</p>
+            </li>
+            <li class="hobby-card">
+                <img class="hobby-card__icon" src="img/icon-drawing.svg" alt="" width="56" height="56" loading="lazy">
+                <h3 class="hobby-card__title">Малювання</h3>
+                <p class="hobby-card__text">Малюю маркерами в блокноті — переважно інтер'єри кав'ярень і людей у транспорті</p>
+            </li>
+            <li class="hobby-card">
+                <img class="hobby-card__icon" src="img/icon-gaming.svg" alt="" width="56" height="56" loading="lazy">
+                <h3 class="hobby-card__title">Відеоігри</h3>
+                <p class="hobby-card__text">Граю в роблокс  геншин і витрачаю туда всі гроши з тумбочки</p>
+            </li>
+            <li class="hobby-card">
+                <img class="hobby-card__icon" src="img/icon-walking.svg" alt="" width="56" height="56" loading="lazy">
+                <h3 class="hobby-card__title">Прогулянки з друзями</h3>
+                <p class="hobby-card__text">Любимо ходити по різним гарнним місцям</p>
+            </li>
+        </ul>
+    </div>
+</section>
+
+<section id="books" class="section">
+    <div class="container">
+        <p class="section__eyebrow">Що читаю</p>
+        <h2 class="section__heading">Улюблені книги</h2>
+
+        <ul class="card-grid card-grid--books">
+            <li class="book-card">
+                <div class="book-card__cover">«1984»</div>
+                <div class="book-card__body">
+                    <h3 class="book-card__title">«1984»</h3>
+                    <p class="book-card__author">Джордж Орвелл</p>
+                    <p class="book-card__impression">Прочитала за одну ніч і потім два дні ходила під враженням.</p>
+                </div>
+            </li>
+            <li class="book-card">
+                <div class="book-card__cover">«Керрі»</div>
+                <div class="book-card__body">
+                    <h3 class="book-card__title">«Керрі»</h3>
+                    <p class="book-card__author">Стівен Кінг</p>
+                    <p class="book-card__impression">Дуже ціква книга</p>
+                </div>
+            </li>
+            <li class="book-card">
+                <div class="book-card__cover">Покинь якщо кохаєш</div>
+                <div class="book-card__body">
+                    <h3 class="book-card__title">Покинь якщо кохаєш</h3>
+                    <p class="book-card__author">Колін Гувер</p>
+                    <p class="book-card__impression">Надзвичайно романтична історія</p>
+                </div>
+            </li>
+            <li class="book-card">
+                <div class="book-card__cover">«Тіні забутих предків»</div>
+                <div class="book-card__body">
+                    <h3 class="book-card__title">«Тіні забутих предків»</h3>
+                    <p class="book-card__author">Михайло Коцюбинський</p>
+                    <p class="book-card__impression">Мова настільки образна, що читаю деякі абзаци вголос — просто заради звучання.</p>
+                </div>
+            </li>
+            <li class="book-card">
+                <div class="book-card__cover">«Воно»</div>
+                <div class="book-card__body">
+                    <h3 class="book-card__title">«Воно»</h3>
+                    <p class="book-card__author">Стівен Кінг</p>
+                    <p class="book-card__impression">Неймовірна моторшна атмосфера, яка запамяталася надовго</p>
+                </div>
+            </li>
+        </ul>
+    </div>
+</section>
+
+<section id="music" class="section">
+    <div class="container">
+        <p class="section__eyebrow">Що слухаю</p>
+        <h2 class="section__heading">Улюблена музика</h2>
+
+        <p class="section__lede">Музику я слухаю буквально постійно. Так як я меломан в моєму плейлисті можна знайти буквально все від джазу до року</p>
+
+        <iframe
+                class="music-embed"
+                src="https://music.youtube.com/playlist?list=OLAK5uy_luwi0OaFxxAjxl3SZsCTLsngkwZ8ITkq4&si=2jnIchwEcEQn1yfv"
+                width="100%"
+                height="152"
+                title="Плейлист з улюбленою музикою"
+                loading="lazy"
+                allow="encrypted-media"
+        ></iframe>
+    </div>
+</section>
+
+<section id="movies" class="section">
+    <div class="container">
+        <p class="section__eyebrow">Що дивлюсь</p>
+        <h2 class="section__heading">Улюблені фільми та серіали</h2>
+
+        <ul class="card-grid card-grid--movies">
+            <li class="movie-card">
+                <div class="movie-card__poster">Шерлок</div>
+                <div class="movie-card__body">
+                    <h3>Шерлок</h3>
+                    <p class="movie-card__meta">2010, серіал</p>
+                    <p class="movie-card__rating">9/10</p>
+                </div>
+            </li>
+            <li class="movie-card">
+                <div class="movie-card__poster">Воно</div>
+                <div class="movie-card__body">
+                    <h3>Воно</h3>
+                    <p class="movie-card__meta">2017, фільм</p>
+                    <p class="movie-card__rating">8/10</p>
+                </div>
+            </li>
+            <li class="movie-card">
+                <div class="movie-card__poster">Гострі предмети</div>
+                <div class="movie-card__body">
+                    <h3>Гострі предмети</h3>
+                    <p class="movie-card__meta">2018, серіал</p>
+                    <p class="movie-card__rating">9/10</p>
+                </div>
+            </li>
+            <li class="movie-card">
+                <div class="movie-card__poster">Ти</div>
+                <div class="movie-card__body">
+                    <h3>Ти</h3>
+                    <p class="movie-card__meta">2018, серіал</p>
+                    <p class="movie-card__rating">8/10</p>
+                </div>
+            </li>
+        </ul>
+    </div>
+</section>
+
+<section id="sport" class="section">
+    <div class="container">
+        <p class="section__eyebrow">Активний спосіб життя</p>
+        <h2 class="section__heading">Спорт та активності</h2>
+
+        <p class="section__lede">Ходжу в спортзал 3 рази на тиждень</p>
+    </div>
+</section>
+
+<section id="travel" class="section">
+    <div class="container">
+        <p class="section__eyebrow">Де встигла побувати</p>
+        <h2 class="section__heading">Подорожі та місця</h2>
+        <p class="section__lede">Найбільше люблю гори — вони поруч із домом ще з дитинства, але потроху досліджую й інші куточки Європи.</p>
+
+        <div class="gallery">
+            <figure class="gallery__item">
+                <img src="img/travel-milan.jpg" alt="Міланський собор" width="800" height="600" loading="lazy">
+                <figcaption>Мілан, Італія</figcaption>
+            </figure>
+            <figure class="gallery__item">
+                <img src="img/travel-como.jpg" alt="Озеро Комо в оточенні альпійських гір" width="640" height="480" loading="lazy">
+                <figcaption>Озеро Комо, Італія</figcaption>
+            </figure>
+            <figure class="gallery__item">
+                <img src="img/travel-czech.jpg" alt="Карлів міст і Празький град над Влтавою" width="640" height="480" loading="lazy">
+                <figcaption>Прага, Чехія</figcaption>
+            </figure>
+            <figure class="gallery__item">
+                <img src="img/travel-venice.jpg" alt="Канал і кольорові будинки у Венеції" width="800" height="600" loading="lazy">
+                <figcaption>Венеція, Італія</figcaption>
+            </figure>
+            <figure class="gallery__item">
+                <img src="img/travel-austria.jpg" alt="Палац Шенбрунн у Відні з боку саду" width="640" height="480" loading="lazy">
+                <figcaption>Відень, Австрія</figcaption>
+            </figure>
+            <figure class="gallery__item">
+                <img src="img/travel-greece.jpg" alt="Білі будинки з блакитними банями на скелі над морем у Санторіні" width="640" height="480" loading="lazy">
+                <figcaption>Санторіні, Греція</figcaption>
+            </figure>
+        </div>
+    </div>
+</section>
+
+<section id="goals" class="section">
+    <div class="container">
+        <p class="section__eyebrow">Куди рухаюсь далі</p>
+        <h2 class="section__heading">Цілі на найближчий рік</h2>
+
+        <ul class="goals">
+            <li class="goal goal--done">
+                <span class="goal__marker">✓</span>
+                <p class="goal__text">Закрити сесію без хвостів</p>
+            </li>
+            <li class="goal goal--done">
+                <span class="goal__marker">✓</span>
+                <p class="goal__text">Підтягнути англійську до рівня B2</p>
+            </li>
+            <li class="goal">
+                <span class="goal__marker">4</span>
+                <p class="goal__text">Знайти стажування або підробіток</p>
+            </li>
+            <li class="goal">
+                <span class="goal__marker">5</span>
+                <p class="goal__text">Прочитати ще щонайменше 15 книг за рік</p>
+            </li>
+            <li class="goal">
+                <span class="goal__marker">6</span>
+                <p class="goal__text">Ходити в спортзал регулярно й нарешті підтягнутися хоч раз</p>
+            </li>
+        </ul>
+    </div>
+</section>
+
+<section id="facts" class="section">
+    <div class="container">
+        <p class="section__eyebrow">Трохи більше про мене</p>
+        <h2 class="section__heading">Цікаві факти</h2>
+
+        <div class="facts">
+            <details class="fact" open>
+                <summary>Можу цілий вечір слухати один і той самий плейлист</summary>
+                <p>Якщо трек «зайшов» — заношу його в улюблені й переслуховую тижнями, поки не набридне.</p>
+            </details>
+            <details class="fact">
+                <summary>Найщасливіша, коли я в горах</summary>
+                <p>Виросла серед Карпат, тому будь-яка нагода вибратись у гори — це вже вдалий день.</p>
+            </details>
+            <details class="fact">
+                <summary>Я сова — найпродуктивніша після опівночі</summary>
+                <p>Найкращі ідеї й найшвидша робота чомусь завжди трапляються глибокої ночі, а не зранку.</p>
+            </details>
+            <details class="fact">
+                <summary>Люблю дощову погоду більше, ніж сонячну</summary>
+                <p>Дощ за вікном — ідеальний привід залишитись удома з книгою чи серіалом.</p>
+            </details>
+            <details class="fact">
+                <summary>Можу передивитися улюблений серіал по колу кілька разів</summary>
+                <p>«Шерлок» я вже пересмотріла, напевно, разів п'ять — і щоразу помічаю щось нове.</p>
+            </details>
+            <details class="fact">
+                <summary>Обожнюю каву з корицею</summary>
+                <p>Це маленький ритуал, без якого ранок відчувається якимось неповним.</p>
+            </details>
+            <details class="fact">
+                <summary>Мрію побувати в Японії</summary>
+                <p>Найбільше хочеться на власні очі побачити цвітіння сакури й токійські вулиці вночі.</p>
+            </details>
+        </div>
+    </div>
+</section>
+
+<section id="quotes" class="section">
+    <div class="container">
+        <p class="section__eyebrow">Що надихає</p>
+        <h2 class="section__heading">Улюблені цитати</h2>
+
+        <div class="quote-grid">
+            <blockquote class="quote">
+                <p>Страх — не ворог, а супутник, який вказує, куди варто піти, щоб стати сильнішим.</p>
+                Стівен Кінг, «Воно»
+            </blockquote>
+            <blockquote class="quote">
+                <p>Хто керує минулим, той керує майбутнім; хто керує теперішнім, той керує минулим.</p>
+                Джордж Орвелл, «1984»
+            </blockquote>
+            <blockquote class="quote">
+                <p>Гори не судять — вони просто чекають, поки ти будеш готовий піднятися.</p>
+                Народна мудрість Карпат
+            </blockquote>
+        </div>
+    </div>
+</section>
+
+<section id="contact" class="section">
+    <div class="container">
+        <p class="section__eyebrow">Залишаймось на зв'язку</p>
+        <h2 class="section__heading">Зв'язок зі мною</h2>
+        <p class="section__lede">Буду рада відгукам про сайт, питанням чи просто привітатись — пишіть через форму нижче.</p>
+
+        <form class="form">
+            <div class="form__field">
+                <label for="name"><span class="req">Каріна</span></label>
+                <input type="text" id="name" name="name" required minlength="2" pattern="[А-Яа-яІіЇїЄєA-Za-z\s'-]+" placeholder="Як до вас звертатися">
+            </div>
+
+            <div class="form__field">
+                <label for="email"><span class="req">karinacendej@gmail.com</span></label>
+                <input type="email" id="email" name="email" required placeholder="karinacendej@gmail.com">
+            </div>
+
+            <div class="form__field form__field--full">
+                <label for="subject"><span class="req">Тема повідомлення</span></label>
+                <select id="subject" name="subject" required>
+                    <option value="" disabled selected>Оберіть тему</option>
+                    <option value="feedback">Відгук про сайт</option>
+                    <option value="question">Питання</option>
+                    <option value="offer">Пропозиція співпраці</option>
+                    <option value="other">Інше</option>
+                </select>
+            </div>
+
+            <div class="form__field form__field--full">
+                <label for="message"><span class="req">Повідомлення</span></label>
+                <textarea id="message" name="message" required minlength="10" placeholder="Напишіть кілька слів..."></textarea>
+            </div>
+
+            <div class="form__field--full form__checkbox">
+                <input type="checkbox" id="consent" name="consent" required>
+                <label for="consent">Погоджуюсь на обробку персональних даних</label>
+            </div>
+
+            <div class="form__field--full">
+                <button type="submit" class="btn">Надіслати повідомлення</button>
+            </div>
+        </form>
+
+        <address class="contact-block">
+            <p>Email: <a href="mailto:karinacendej@gmail.com">karinacendej@gmail.com</a></p>
+            <p>Місто: Львів</p>
+        </address>
+    </div>
+</section>
+
+</body>
+</html>
