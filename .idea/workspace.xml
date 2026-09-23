@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="77bec75d-d56b-4697-804f-1a13fdb093aa" name="Changes" comment="сss">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0" />
+      <entry key="S5" value="1.0000000000000047" />
+      <entry key="S10" value="1.0000003133129807" />
+      <entry key="S30" value="1.065790525936311" />
+      <entry key="S60" value="2.498141061595458" />
+      <entry key="M2" value="8.275134910717192" />
+      <entry key="M5" value="19.97451975634916" />
+      <entry key="M10" value="27.41613781779363" />
+      <entry key="M15" value="31.08399761098656" />
+      <entry key="M30" value="46.11930388286992" />
+      <entry key="H1" value="107.52955853402233" />
+      <entry key="H2" value="223.35650047567964" />
+      <entry key="H4" value="344.01850273578435" />
+      <entry key="D1" value="506.73882556820536" />
+      <entry key="W1" value="542.7258753182648" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="0.0" />
+      <entry key="S5" value="0.0" />
+      <entry key="S10" value="0.0" />
+      <entry key="S30" value="1.8973460129313548E-156" />
+      <entry key="S60" value="1.377441836496673E-78" />
+      <entry key="M2" value="1.1736446806834953E-39" />
+      <entry key="M5" value="2.6780251662685717E-16" />
+      <entry key="M10" value="1.636467282370338E-8" />
+      <entry key="M15" value="6.44572171165658E-6" />
+      <entry key="M30" value="0.0025388425929262813" />
+      <entry key="H1" value="0.05038692879037446" />
+      <entry key="H2" value="0.22447032942100362" />
+      <entry key="H4" value="0.473782998239704" />
+      <entry key="D1" value="0.8829373973035954" />
+      <entry key="W1" value="0.9823713806492124" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="0.9659363289248456" />
+      <entry key="MS500" value="0.9930924954370359" />
+      <entry key="S2" value="0.9982686325973925" />
+      <entry key="S5" value="0.999307092990457" />
+      <entry key="S10" value="0.9996537969505433" />
+      <entry key="S30" value="1.0654718113354675" />
+      <entry key="S60" value="2.4957801192951217" />
+      <entry key="M2" value="8.269557394145597" />
+      <entry key="M5" value="19.96877270296612" />
+      <entry key="M10" value="27.412168156083876" />
+      <entry key="M15" value="31.08099953322419" />
+      <entry key="M30" value="46.119408964438705" />
+      <entry key="H1" value="107.57646739125954" />
+      <entry key="H2" value="223.57683775670696" />
+      <entry key="H4" value="344.48886678732623" />
+      <entry key="D1" value="507.62086995469684" />
+      <entry key="W1" value="543.7081085747319" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 3,
+  "fromUser": false
+}]]></component>
+  <component name="ProjectId" id="3JgogULpIGPsED6vsZFzAubnhaz" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "master",
+    "javascript.preferred.runtime.type.id": "node",
+    "junie.onboarding.icon.badge.shown": "true",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "to.speed.mode.migration.done": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-WS-262.10315.144" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="77bec75d-d56b-4697-804f-1a13fdb093aa" name="Changes" comment="" />
+      <created>1790092184340</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1790092184340</updated>
+      <workItem from="1790092185320" duration="15937000" />
+    </task>
+    <task id="LOCAL-00001" summary="start">
+      <option name="closed" value="true" />
+      <created>1790093558439</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1790093558439</updated>
+    </task>
+    <task id="LOCAL-00002" summary="хед, шапка та навігація">
+      <option name="closed" value="true" />
+      <created>1790095511436</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1790095511436</updated>
+    </task>
+    <task id="LOCAL-00003" summary="школа">
+      <option name="closed" value="true" />
+      <created>1790098504445</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1790098504445</updated>
+    </task>
+    <task id="LOCAL-00004" summary="університет та предмети">
+      <option name="closed" value="true" />
+      <created>1790099703233</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1790099703233</updated>
+    </task>
+    <task id="LOCAL-00005" summary="скіли та хобі">
+      <option name="closed" value="true" />
+      <created>1790100479256</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1790100479256</updated>
+    </task>
+    <task id="LOCAL-00006" summary="нові секції">
+      <option name="closed" value="true" />
+      <created>1790104900653</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1790104900653</updated>
+    </task>
+    <task id="LOCAL-00007" summary="нові секції">
+      <option name="closed" value="true" />
+      <created>1790106892612</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1790106892612</updated>
+    </task>
+    <task id="LOCAL-00008" summary="нові секції">
+      <option name="closed" value="true" />
+      <created>1790107566417</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1790107566417</updated>
+    </task>
+    <task id="LOCAL-00009" summary="нові фото">
+      <option name="closed" value="true" />
+      <created>1790108726829</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1790108726829</updated>
+    </task>
+    <task id="LOCAL-00010" summary="сss">
+      <option name="closed" value="true" />
+      <created>1790109157437</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1790109157437</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="start" />
+    <MESSAGE value="хед, шапка та навігація" />
+    <MESSAGE value="школа" />
+    <MESSAGE value="університет та предмети" />
+    <MESSAGE value="скіли та хобі" />
+    <MESSAGE value="нові секції" />
+    <MESSAGE value="нові фото" />
+    <MESSAGE value="сss" />
+    <option name="LAST_COMMIT_MESSAGE" value="сss" />
+  </component>
+</project>
